@@ -27,8 +27,9 @@ async function initDB(){
     }
 }
 
-app.get('/', (req,res)=>{
-    res.send('Hello it is working');
+
+app.post('/api/transactions', async (req,res)=>{
+
 })
 
 //console.log("my port:", process.env.PORT);
